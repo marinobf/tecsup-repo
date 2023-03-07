@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    /* padding-top: 50px; */
+    
+    
+   
+}
+
+.header{
+    background-color: aqua;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+   
+}
+
+.posi {
+    position: sticky;
+    top: -25px;
+
+   
+}
+
+    
+
+/* .fixed-top{
+    position: fixed;
+    top: 0%;
+   
+} */
+
+.hero-image{
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+    
+}
+

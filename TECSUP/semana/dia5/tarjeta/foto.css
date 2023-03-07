@@ -1,0 +1,64 @@
+body{
+    background-color: blanchedalmond;
+    background-image: url(https://fr.web.img4.acsta.net/medias/nmedia/18/97/32/51/20531870.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.cartilla{
+    background-color: darksalmon;
+    width: 550px;
+    height: 500px;
+    text-align: center;
+    border: solid black;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+   
+    background-image: url(https://images-ext-1.discordapp.net/external/zxyzVxVG8vwj1ZmeVJ-lwPVuJ6Snf2gJTQqXKkMpKVA/%3Frik%3DFzzj31lUdkTlDA%26pid%3DImgRaw%26r%3D0%2522%29%3B/https/th.bing.com/th/id/R.a9c30a27350dddc94f32b4d9295cf82b?width=749&height=468);
+    margin: auto;
+
+}
+
+.nombre{
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.imagen-principal{
+   height: 30%;
+   width: 20%;
+   padding: 20px;
+   border-radius:50%;
+
+
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border-bottom: 10px solid white;
+    border-bottom-style: double ;
+}
+
+.cel{
+    color: white;
+    display: inline-flex;
+   
+    
+  
+}
+div{
+    position: absolute;
+}
+.cabecera{
+    color: brown;
+    font-size: 15px;
+    height: 80px;
+    width: 150px;
+    border: solid black;
+    position: sticky;
+    top: 0;
+
+}
