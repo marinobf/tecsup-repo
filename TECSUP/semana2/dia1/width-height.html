@@ -1,31 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .caja1{
-            border: 1px solid red;
-            width: 200px;
-            height: 100px;
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* que tanto el ancho como el alto no sera afectado con los border,
+                                          margenes ni rellenos */ /*(lo deben tener todos los elementps)*/
+      }
+      body {
+        background-color: #cccccc;
+        border: 10px solid white;
+        height: 100vh; /* height: calc(100vh - 10px); */
+      }
+      .caja1 {
+        border: 1px solid red;
+        width: 200px;
+        height: 100px;
+        /* overflow: hidden;   es el exeso o revalse del elemento (oculto) */
+        overflow-y: scroll;
+      }
+      .span-1 {
+        border: 1px solid blue;
+        height: 200px;
+        width: 100px;
+      }
+      /* a los elementos en linea no se puede especificar el ancho y el largo */
 
-        }
-        .span-1{
-            
-        }
-       /* a los elementos en linea no se puede especificar el ancho y el largo */
+      .caja2 {
+        border: 1px solid white;
+        height: 100px;
+        width: 200px;
+        overflow-x: scroll;
+      }
+      .parrafo-grande {
+        width: 300px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="caja1">
-        Algo de contenido
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque libero
+      nobis, repellendus accusamus natus incidunt possimus? Impedit corrupti,
+      nam magnam provident autem quis. Sequi magnam ad officiis rem? Itaque,
+      quidem?
     </div>
+
     <span class="span-1">un span</span>
-</body>
+    <div class="caja2">
+      <p class="parrafo-grande">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+        fugiat odio veniam nemo dolor, pariatur aspernatur itaque, saepe cumque
+        eligendi consectetur porro. Dicta rem qui pariatur minus similique
+        libero placeat?
+      </p>
+    </div>
+  </body>
 </html>

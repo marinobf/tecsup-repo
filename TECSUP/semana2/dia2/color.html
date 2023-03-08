@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .caja-1{
+            
+            height: 200px;
+            background-color: #150;
+        }
+        body{
+            padding-bottom: 400px; 
+        }
+        .caja-2{
+            height: 200px;
+            background-image: url(./textura.png);
+            background-repeat: repeat-x;
+            background-color: blue;
+           background-size: contain; /* determina el tamano del fondo , cibre todo el fonto. */
+        
+        }                          
+                                         /* se puede meter tambien valores */
+        .caja-3{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            border-radius: 50%;
+
+
+        }
+        .caja-4{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            border-radius: 50%;
+            background-image: url(./textura.png);
+
+
+        }
+        .caja-5{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .caja-5 img{
+
+            height: 100%;
+            width: 100%;      /* sirve cuando la caja tiene una altura y ancho*/
+        }
+        input{
+            /* border: 1px solid blue; */
+            border: 0;
+            border-bottom: 2px solid rgb(0, 124, 128);
+            border-radius: 8px;
+            padding: 8px 16px;
+            outline: none;  /* es igual que el border, es como un borde fuera del borde, no afecta al otro elementoo*/
+
+        }
+        
+        
+   
+   </style>
+</head>
+<body>
+    <div class="caja-1">
+       CAJA1
+
+    </div>
+    <div class="caja-2">
+        CAJA2
+
+    </div>
+    <div class="caja-3">
+        CAJA3
+
+    </div>
+    <div class="caja-4">
+        CAJA4
+
+    </div>
+    <div class="caja-5">
+        
+     <img src="./textura.png" alt="">
+    </div>
+    <input type="text" placeholder="tu nombre">
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:red;font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+</body>
+</html>
+ -->

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: o;
+            box-sizing: border-box;
+        }
+        .card{
+            height: 200px;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid black;
+            box-shadow: #888 10px 25px 8px /*inset*/;
+             /*x, y, z otro ejemplo 0px 0x 8px* "quitando el borde"*/
+             /*neomormismo "inset" para darle sombra al interior de la caja*/
+             /*https://neumorphism.io/#e0e0e0*//*el backgraond deve tener el mismo color*/
+        }
+        .caja-gradiente{
+            height: 300px;
+            background-image: -webkit-linear-gradient(top left, blue, width);
+        }
+        /*https://uigradients.com/#Frozen*/
+
+        .caja-blur{
+            filter: blur(5px); /*de 1 a 10 px*/
+            cursor: pointer;
+        }
+        .caja-blur:hover {      /* cuando el maus esta encima de ese elemnto*/
+            filter: blur(0px);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">aa</div>
+    <div class="caja-gradiente">grg</div>
+    <div class="caja-blur">
+        <img src="./textura.png" alt="">
+    </div>
+</body>
+</html>
