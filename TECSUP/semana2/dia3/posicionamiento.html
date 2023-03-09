@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pocicionamiento.css">
+</head>
+<body>
+    <div class="caja1"></div>
+    <div class="caja2">
+        <div class="circulo"></div>
+    </div>
+    <div class="action-button"></div>
+</body>
+</html>
+
+
+<!-- 
+    1 .relative: un elemento con posicionamiento relativo puede ser movido
+    resoecto de top y left.
+    -cuando el elemento es movido, sus hermanos tambien son desplazados.
+    truco: si un elemento tiene hijos con posicionamiento absoluto, este 
+    elemento este elemento deve tener posiscionamiento relativo, para que sus hijos no salgan de
+    las margenes del padre.
+
+    2.absolute: un elemento con posicionamiento absoluto puede ser movido respecto
+    al primer ancestro que tenga posicionamiento relativo.
+    -si ningun ancestro tiene posicionamiento establecido, ele elemento se mueve con respecto al viewport.
+    -el elemento puede ser movido con respectode:
+    left, right, bottom y top.
+    -cuando un elemento absoluto es movido, sus hermanos toman su posicion y no toman
+    en cuenta la ubicacion del elemento absoluto.
+
+    3.fixed: un elemento con posiconamiento fixed, puede ser movido con respecto de top left, right y bottom.
+    - ele elmento toma siempre como referencia el vioport(el area visible del browser)
+ -->
