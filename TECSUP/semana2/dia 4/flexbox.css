@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .caja1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    position: absolute;
+    left: calc(50%-100px);
+}
+
+.caja2{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+} */
+
+.papa{
+    display: flex;
+    margin: 5px;
+}
+.div{
+    margin: 5px;
+}
+.main-navegation{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul{
+  
+
+}
+
+.papabox{
+    height: 50vh;
+    border: solid olive;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    /* nos ayuda alinear de amodo horizontal */
+    align-items: center;
+    /* nos va a posicionar de manera vertical */
+    
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    margin: 8px;
+}
+
