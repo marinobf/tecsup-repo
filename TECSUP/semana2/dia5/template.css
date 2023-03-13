@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 100px auto 100px;
+    /* grid area: sirve para asignar un nombre a las columnas
+    y filas */
+    grid-template-areas: 
+    "header header header"
+    "nav main aside"
+    "footer footer aside";
+}
+.header{
+    grid-area: header;
+    background-color: aquamarine;
+}
+.nav{
+    grid-area: nav;
+    background-color: bisque;
+}
+.aside{
+    grid-area: aside;
+    background-color: brown;
+}
+.contenedor{
+    background-color: chartreuse;
+
+}
+.footer{
+    grid-area: footer;
+    background-color: darkgray;
+}

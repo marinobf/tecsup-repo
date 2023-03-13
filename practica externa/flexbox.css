@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.papa{
+    display: flex;
+    
+}
+
+div{
+    margin: 5px;
+}
+
+.main-navegacion{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* seccion caja */
+
+
+.papabox{
+      border: solid black;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      height: 50vh;
+      align-items: start;
+      justify-content: center;
+      
+}
+.hijo1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
