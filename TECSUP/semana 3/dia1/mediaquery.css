@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+p{
+    color: #f0f0f0;
+}
+
+
+
+.main{
+    display: flex;
+    /* con display fle da por default flex direction-row y flex wrap: no wrap */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.section{
+    border: solid;
+    width: 25%;
+}
+nav img{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    /* hay tamanios estandares a nivebl internacional 1440/ etc */
+    body {
+        background-color: rgb(61, 44, 44);
+    }
+    .section {
+        width: 50%;
+        
+    }
+    li {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    /* hay tamanios estandares a nivebl internacional 1440/ etc */
+    body{
+        background-color: blueviolet;
+    }
+    
+    .section {
+        width: 100%;
+    }
+    ul {
+        display: none;
+    }
+    nav img {
+        display: inline-block;
+    }
+}
+
+
+

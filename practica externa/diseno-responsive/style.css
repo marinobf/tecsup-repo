@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    height: 100px;
+    background: #4D4D5C;
+    padding: 0 50PX;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    text-transform: uppercase;
+    color: #6cc091;
+    font-weight: 200;
+
+}
+
+.menu a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+
+.mostrar-menu,
+.esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.mostrar-menu{
+    order: 1;
+}
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover{
+    color: aquamarine;
+}
+
+#check{
+    display: none;
+}
+
+/* RESPONSIVE PARA TABLET */
+
+@media(max-width: 769px){
+    /* header */
+    .mostrar-menu,
+    .esconder-menu{
+        display: block;
+    }
+}
